@@ -1,0 +1,68 @@
+
+/* =========== Common Css Start ===========*/
+:root{
+    --heading-font:'Abril fatface', cursive;
+    --primary-font:'Ubuntu', sans-serif;
+    --secondary-font:'Ubuntu', sans-serif;
+    --primarycolor:#0f2f44;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li{
+    margin:0;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+    ul,
+    ol{
+        list-style-type: none;
+    }
+/* =========== Common Css End ===========*/
+/* =========== Top Bar Section Css Start ===========*/
+#top_bar{
+    padding:19px 0;
+   background-color:var(--primarycolor);
+   color:#fefefe;
+   font-family: var(--primary-font);
+   font-size: 16px;
+}
+/* ===========  Top Bar Section Css End ===========*/
+
+/* ===========  Nav Section Css Start ===========*/
+#primary_nav #primary_menu ul li a{
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding:40px 19px;
+    display: inline-block;
+    color:#222222;
+}
+#primary_nav #primary_menu ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid#dedede;
+    margin:0 10px;
+}
+#primary_nav #primary_menu ul li button:hover,
+#primary_nav #primary_menu ul li a:hover{
+    color:#ffc712;
+    background-color: #fff9e6;
+}
+
+/* ===========  Nav Section Css End ===========*/
+
+
+
